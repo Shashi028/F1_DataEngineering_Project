@@ -13,23 +13,22 @@ This end-to-end data engineering project builds a comprehensive Data Lakehouse t
 * **Orchestration:** Azure Data Factory (ADF)
 * **Visualization:** Power BI
 
-![Architecture Diagram]() 
-
 ## 🚀 Key Features
 * **Ingestion:** Automated data extraction from the Ergast F1 API using Python/ADF.
 * **Transformation:** * **Bronze:** Raw JSON ingestion.
     * **Silver:** Data cleaning, schema enforcement, and joining normalized tables (Drivers, Constructors, Results).
     * **Gold:** Business-level aggregations (e.g., `normalized_points`, `constructor_dominance`) ready for BI.
 * **Visualization:** Interactive Power BI dashboard with 3 pages (Legends, Teams, Nations) featuring dynamic "Eras of Dominance" analysis.
-
 ## 📊 Dashboard Previews
-### Page 1: Driver Legends
-![Legends Dashboard]()
 
-### Page 2: Constructor Wars
-![Teams Dashboard]()
+### Page 1: Driver Legends 🏎️
+*A cross-era comparison normalizing points to the modern 2024 scoring system.*
+![Legends Dashboard](04_PowerBI/The_Legends.png)
 
-## 💻 How to Run
-1.  Clone the repo.
-2.  Mount Azure Storage in Databricks using the setup notebook.
-3.  Run the Ingestion pipelines...
+### Page 2: Constructor Wars 🛠️
+*Visualizing the rise and fall of F1 dynasties over 70 years.*
+![Teams Dashboard](04_PowerBI/The_Machine.png)
+
+### Page 3: Global Powerhouses 🌍
+*Geospatial analysis of winning nations.*
+![Nations Dashboard](04_PowerBI/Nations.png)
