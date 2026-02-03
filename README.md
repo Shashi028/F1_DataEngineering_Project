@@ -23,12 +23,12 @@ This end-to-end data engineering project builds a comprehensive Data Lakehouse t
 
 ### Page 1: Driver Legends 🏎️
 *A cross-era comparison normalizing points to the modern 2024 scoring system.*
-![Legends Dashboard](04_PowerBI/The_Legends.png)
+![Legends Dashboard](Images/The_Legends.png)
 
 ### Page 2: Constructor Wars 🛠️
 *Visualizing the rise and fall of F1 dynasties over 70 years.*
-![Teams Dashboard](04_PowerBI/The_Machine.png)
+![Teams Dashboard](Images/The_Machine.png)
 
 ### Page 3: Global Powerhouses 🌍
 *Geospatial analysis of winning nations.*
-![Nations Dashboard](04_PowerBI/Nations.png)
+![Nations Dashboard](Images/Nations.png)
